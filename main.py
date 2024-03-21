@@ -9,9 +9,7 @@ def main():
     
     # Limpia datos
     datos_limpios = limpiar.limpiar_datos(datos_cargados)
-    
-    # Para analizar datos
-    resumen_ventas = analizar.analizar_datos(datos_limpios)
+
     
     # Para visualizar datos
     visualizar.ventasXtiempo(datos_limpios)
