@@ -27,15 +27,3 @@ def ventasXproducto(datos):
     plt.title('Ventas por producto')
     plt.xticks(rotation=45)
     plt.show()
-
-def distribucionXventas(datos):
-    """
-    La función recibe un DataFrame datos que contiene información de ventas. 
-    Utiliza la función plt.hist() para trazar un histograma que muestra la distribución de las ventas totales.  
-    Por ultimo, muestra el grafico
-    """
-    plt.hist(datos['cantidad'] * datos['precio'], bins=10)
-    plt.xlabel('Ventas')
-    plt.ylabel('Frecuencia')
-    plt.title('Distribución de ventas')
-    plt.show()
