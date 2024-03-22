@@ -14,7 +14,6 @@ def main():
     # Para visualizar datos
     visualizar.ventasXtiempo(datos_limpios)
     visualizar.ventasXproducto(datos_limpios)
-    visualizar.distribucionXventas(datos_limpios)
 
 if __name__ == "__main__":
     main()
